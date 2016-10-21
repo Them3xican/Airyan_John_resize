@@ -1,0 +1,152 @@
+body {
+    
+    margin: 0 auto;
+    padding: 0;
+    min-width: 320px;
+    min-height: 480px;
+    width: 100%;
+    height: 100%;
+    background-attachment:fixed;  
+    background-image: url('../img/CBBA8BF2-2692-4D37-8192-CACB26DF9540.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 3em;    
+    
+    
+}
+
+.container {
+    
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    min-height: 480px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+header {
+    
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    width: 80%;
+    height: 5em;
+    text-align: center;
+    
+}
+
+header img {
+    
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    width: 60%;
+    margin-top: 1em;
+    
+}
+
+.table {
+    
+    margin: 0 auto;
+    padding: 0;
+    min-width: 320px;
+    min-height: 568px;
+    width: 100%;
+    height: auto;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: center;
+    
+}
+
+.col-pics {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    border: 1px solid white;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+nav {
+    
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    
+    
+}
+
+a {
+    
+    text-decoration: none; 
+    margin: 0 auto;
+    padding: 0;
+    color: #473F3B;
+    float: center;
+
+}
+
+a:hover {
+    
+    color: darkgray;
+}
+
+.no-use {
+    
+    color: darkgray;
+}
+
+.col-pics img {
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    max-width: 100%;
+    width: 20%;
+    
+}
+
+.col-vids {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    margin-top: 3em;
+    border: 1px solid white;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.col-vids img {
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    max-width: 100%;
+    width: 20%;
+    
+}
+
