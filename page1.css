@@ -6,13 +6,53 @@ body {
     min-height: 480px;
     width: 100%;
     height: 100%;
-    background-attachment:fixed;  
-    background-image: url('../img/CBBA8BF2-2692-4D37-8192-CACB26DF9540.png');
+        background-color: floralwhite;  
+
+       
+}
+
+header {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 15em;
+    max-height: 30em;
+    background-image: url("img/IMG_1790.JPG");
     background-position:center;
     background-repeat: no-repeat;
-      
+    background-size: cover;
+    text-align: center;
+}
+
+header nav {
     
+    margin: 0 auto;
+    padding: 0;
+    width: 40%;
+    float: right;
+    border: 2px darkgrey solid;
+}
+
+header nav a {
     
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 2em;
+    font-size: 150%;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+header img {
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 3em;
+    margin-left: 3em;
+    width: 50%;
+    min-width: 200px;
 }
 
 .container {
@@ -26,166 +66,69 @@ body {
     
 }
 
-aside {
+#about {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 30em;
+    max-height: 50em;
+    max-height: 50em;
+}
+
+#pic {
     
     margin: 0;
     padding: 0;
-    max-width: 100%;
-    width: 10%;
+    width: 50%;
     float: left;
-    margin-top: 15em;
-    position: fixed;
 }
 
-
-nav {
-    
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100%;
-    width: 100%;
-    text-align: center;
-    
-    
-    
-}
-
-a {
-    
-    text-decoration: none; 
-    margin: 0 auto;
-    padding: 0;
-    color: white;
-    display: block;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 200;
-    color: white;
-    font-size: 3em;  
-
-}
-
-a:hover {
-    
-    color: darkgray;
-    text-decoration: underline;
-}
-
-.table {
-    
-    margin: 0 auto;
-    padding: 0;
-    min-width: 320px;
-    min-height: 568px;
-    width: 100%;
-    height: auto;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-[class*="col-"] {
-    float: center;
-    
-}
-
-.col-logo {
-    
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100%;
-    width: 80%;
-    height: 10em;
-   
-    text-align: center;
-   
-   
-
-    
-}
-
-.col-logo img {
-    
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100%;
-    min-width: 400px;
-    width: 50%; 
-    margin-top: 1em;
-    
-}
-
-h1 {
-    
-    margin: 0 auto;
-    padding: 0;
-     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 200;
-    color: white;
-    font-size: 3em;
-    
-}
-
-
-
-.col-pics {
-    
-    margin: 0 auto;
-    padding: 0;
-    width: 60%;
-    
-    border: 1px solid white;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-
-
-.col-pics img {
+#about-info {
     
     margin: 0;
     padding: 0;
-    margin-top: 1em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-bottom: 1em;
-    max-width: 100%;
-    width: 25%;
+    width: 50%;
+    float: left;
+    text-align: justify;
     
 }
 
-.col-vids {
-    
-    margin: 0 auto;
-    padding: 0;
-    width: 60%;
-    margin-top: 4em;
-    border: 1px solid white;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.col-vids img {
+#about-info h1 {
     
     margin: 0;
     padding: 0;
-    margin-top: 1em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-bottom: 1em;
-    max-width: 100%;
-    width: 25%;
-    
-}
-
-.col-contact {
-    
-    margin: 0 auto;
-    padding: 0;
-    width: 60%;
+    font-size: 200%;
+    font-weight: 300;
+    font-family: sans-serif;
     margin-top: 2em;
-    border: 1px solid white;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.2);
+    margin-left: 2em;
+
+}
+
+#about-info p {
+    
+    margin: 0 auto;
+    padding: 0;
+    font-size: 120%;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin-top: 2em;
+    width: 80%;
+    
+    
+}
+
+#footer  {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 5em;
+    max-height: 10em;
+    background-color: black;
+}
+
+#footer h1 {
+    color: white;
 }
